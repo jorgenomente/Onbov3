@@ -262,6 +262,7 @@ Cada lote produce:
 - Commits frecuentes y atómicos por bloque lógico.
 - Mensajes convencionales (ej: `feat: ...`, `fix: ...`, `chore: ...`).
 - No mezclar cambios no relacionados en un mismo commit.
+- Después de cada commit, hacer `git push`.
 
 ---
 
