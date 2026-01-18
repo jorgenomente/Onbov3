@@ -268,7 +268,6 @@ begin
 end;
 $$;
 
-revoke all on function public.accept_invite(text, text) from public;
 revoke all on function public.accept_invite(text) from public;
 revoke all on function public.accept_invite(text) from anon, authenticated;
 grant execute on function public.accept_invite(text) to authenticated;
